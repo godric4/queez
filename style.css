@@ -1,0 +1,147 @@
+ body {
+   background-image: url(abstractsdark6.jpg);
+   color: aliceblue;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+
+ .wrapper {
+   position: absolute;
+   width: 20rem;
+   top: 40%;
+   left: 50%;
+   height: 70%;
+   transform: translate(-50%, -50%);
+ }
+
+ .landing {
+   height: 90vh;
+   background: rgba(71, 32, 4, .7);
+ }
+
+ .landing-msg {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .app-name {
+   font-family: cursive;
+   font-style: italic;
+ }
+
+ .start-btn {
+   width: 12rem;
+   font-weight: bold;
+   border-radius: 1rem;
+   border: 2px solid aliceblue;
+ }
+
+ .start-btn:hover {
+   background: white;
+   color: black !important;
+   border: 2px solid #ffc107;
+ }
+
+ /* quiz page styles */
+
+ .question-card {
+   box-shadow: 5px 7px 10px;
+   height: 12rem;
+   background-color: chocolate;
+   border-radius: 1rem;
+ }
+
+ .score {
+   font-weight: bold;
+   position: relative;
+   top: -.4rem;
+ }
+
+ .user-score {
+   font-weight: bolder;
+   color: rgb(246, 250, 246);
+ }
+
+ .question {
+   font-weight: bold;
+   font-style: oblique;
+ }
+
+ .question-number {
+   position: absolute;
+   top: .5rem;
+   right: 1rem;
+ }
+
+ .option {
+   background: rgba(71, 32, 4, .7);
+   margin: .6rem .3rem;
+   border-radius: .7rem;
+   padding: .2rem;
+   height: 2.5rem;
+   font-size: .9rem;
+   font-weight: bold;
+   border: 2px solid chocolate;
+ }
+
+ /* .option:hover {
+   background: rgba(71, 32, 4, .7);
+   color: wheat;
+   font-weight: bold;
+   font-style: italic;
+ } */
+
+ .next-btn {
+   width: 8rem;
+   border: 1px solid white;
+   border-radius: .7rem;
+   background-color: chocolate !important;
+   color: white;
+   font-weight: bolder;
+ }
+
+ .next-btn:hover {
+   color: black !important;
+   border: 2px solid chocolate;
+ }
+
+ .success {
+   background: rgba(24, 153, 7, 0.7);
+ }
+
+ .error {
+   background: rgba(224, 15, 15, 0.7);
+ }
+
+ /* user page */
+
+ .instruction {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .instruction h3 {
+   font-weight: bold;
+   font-style: italic;
+   font-family: fantasy;
+   text-transform: uppercase;
+   text-decoration: underline;
+   border-bottom: 5px solid chocolate;
+ }
+
+ .instruction p {
+   margin: 1rem;
+   /* padding: 1rem; */
+   font-weight: bold;
+ }
